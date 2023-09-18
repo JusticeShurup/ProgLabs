@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# projects\\LR4\\LR4.csproj": {}
+    "C:\\Users\\mixas\\OneDrive\\Desktop\\МГТУ\\2 курс\\Программирование C#\\ProgLabs\\LR4\\LR4.csproj": {}
   },
   "projects": {
-    "D:\\C# projects\\LR4\\LR4.csproj": {
+    "C:\\Users\\mixas\\OneDrive\\Desktop\\МГТУ\\2 курс\\Программирование C#\\ProgLabs\\LR4\\LR4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# projects\\LR4\\LR4.csproj",
+        "projectUniqueName": "C:\\Users\\mixas\\OneDrive\\Desktop\\МГТУ\\2 курс\\Программирование C#\\ProgLabs\\LR4\\LR4.csproj",
         "projectName": "LR4",
-        "projectPath": "D:\\C# projects\\LR4\\LR4.csproj",
-        "packagesPath": "C:\\Users\\Илья\\.nuget\\packages\\",
-        "outputPath": "D:\\C# projects\\LR4\\obj\\",
+        "projectPath": "C:\\Users\\mixas\\OneDrive\\Desktop\\МГТУ\\2 курс\\Программирование C#\\ProgLabs\\LR4\\LR4.csproj",
+        "packagesPath": "C:\\Users\\mixas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mixas\\OneDrive\\Desktop\\МГТУ\\2 курс\\Программирование C#\\ProgLabs\\LR4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Илья\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mixas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

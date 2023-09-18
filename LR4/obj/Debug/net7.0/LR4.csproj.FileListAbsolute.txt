@@ -12,3 +12,17 @@ D:\C# projects\LR4\obj\Debug\net7.0\refint\LR4.dll
 D:\C# projects\LR4\obj\Debug\net7.0\LR4.pdb
 D:\C# projects\LR4\obj\Debug\net7.0\LR4.genruntimeconfig.cache
 D:\C# projects\LR4\obj\Debug\net7.0\ref\LR4.dll
+C:\Users\mixas\OneDrive\Desktop\МГТУ\2 курс\Программирование C#\ProgLabs\LR4\bin\Debug\net7.0\LR4.exe
+C:\Users\mixas\OneDrive\Desktop\МГТУ\2 курс\Программирование C#\ProgLabs\LR4\bin\Debug\net7.0\LR4.deps.json
+C:\Users\mixas\OneDrive\Desktop\МГТУ\2 курс\Программирование C#\ProgLabs\LR4\bin\Debug\net7.0\LR4.runtimeconfig.json
+C:\Users\mixas\OneDrive\Desktop\МГТУ\2 курс\Программирование C#\ProgLabs\LR4\bin\Debug\net7.0\LR4.dll
+C:\Users\mixas\OneDrive\Desktop\МГТУ\2 курс\Программирование C#\ProgLabs\LR4\bin\Debug\net7.0\LR4.pdb
+C:\Users\mixas\OneDrive\Desktop\МГТУ\2 курс\Программирование C#\ProgLabs\LR4\obj\Debug\net7.0\LR4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mixas\OneDrive\Desktop\МГТУ\2 курс\Программирование C#\ProgLabs\LR4\obj\Debug\net7.0\LR4.AssemblyInfoInputs.cache
+C:\Users\mixas\OneDrive\Desktop\МГТУ\2 курс\Программирование C#\ProgLabs\LR4\obj\Debug\net7.0\LR4.AssemblyInfo.cs
+C:\Users\mixas\OneDrive\Desktop\МГТУ\2 курс\Программирование C#\ProgLabs\LR4\obj\Debug\net7.0\LR4.csproj.CoreCompileInputs.cache
+C:\Users\mixas\OneDrive\Desktop\МГТУ\2 курс\Программирование C#\ProgLabs\LR4\obj\Debug\net7.0\LR4.dll
+C:\Users\mixas\OneDrive\Desktop\МГТУ\2 курс\Программирование C#\ProgLabs\LR4\obj\Debug\net7.0\refint\LR4.dll
+C:\Users\mixas\OneDrive\Desktop\МГТУ\2 курс\Программирование C#\ProgLabs\LR4\obj\Debug\net7.0\LR4.pdb
+C:\Users\mixas\OneDrive\Desktop\МГТУ\2 курс\Программирование C#\ProgLabs\LR4\obj\Debug\net7.0\LR4.genruntimeconfig.cache
+C:\Users\mixas\OneDrive\Desktop\МГТУ\2 курс\Программирование C#\ProgLabs\LR4\obj\Debug\net7.0\ref\LR4.dll
