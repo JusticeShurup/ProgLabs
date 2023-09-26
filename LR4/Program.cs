@@ -11,6 +11,7 @@
             int b = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Интеграл функции y = x от a до b равен {0}", chart.CalculateIntegral(a, b));
+            Console.WriteLine("Длина отрезка функции от a до b равна {0}", chart.CalculateLenght(a, b));
 
         }
 
