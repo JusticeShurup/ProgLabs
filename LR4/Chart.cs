@@ -8,13 +8,17 @@ namespace LR4
 {
     public class Chart
     {
-        
-        public float CalculateIntegral(int a, int b)
+
+        public float a { get; set; }
+        public float b { get; set; }
+
+
+        public float CalculateIntegral()
         {
             return (float)(b * b) / 2 - (float)(a * a) / 2;
         }
 
-        public float CalculateLenght(int a, int b)
+        public float CalculateLength()
         {
             return (float)Math.Sqrt(Math.Pow(b - a, 2) + Math.Pow(b - a, 2));
         }

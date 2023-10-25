@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace LR6
 {
-    public abstract class APair
+
+    public abstract class APair 
     {
         public abstract void Print();
+
     }
 }
