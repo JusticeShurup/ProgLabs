@@ -6,12 +6,12 @@
         {
             Chart chart = new Chart();
             Console.Write("Введите левую границу a: ");
-            int a = int.Parse(Console.ReadLine());
+            chart.a = int.Parse(Console.ReadLine());
             Console.Write("Введите правую границу b: ");
-            int b = int.Parse(Console.ReadLine());
+            chart.b = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Интеграл функции y = x от a до b равен {0}", chart.CalculateIntegral(a, b));
-            Console.WriteLine("Длина отрезка функции от a до b равна {0}", chart.CalculateLenght(a, b));
+            Console.WriteLine("Интеграл функции y = x от a до b равен {0}", chart.CalculateIntegral());
+            Console.WriteLine("Длина отрезка функции от a до b равна {0}", chart.CalculateLength());
 
         }
 
@@ -21,13 +21,16 @@
             Console.WriteLine($"Количество купюр: {money[2]}\nНоминал этих купюр: {money[1]}");
             Console.WriteLine($"Сумма денег: {money.value}");
             money++;
+            Console.WriteLine("-----------------\nПроизошло увеличение");
             Console.WriteLine($"Количество купюр: {money[2]}\nНоминал этих купюр: {money[1]}");
             Console.WriteLine($"Сумма денег: {money.value}");
             money--;
+            Console.WriteLine("-----------------\nПроизошло уменьшение");
             Console.WriteLine($"Количество купюр: {money[2]}\nНоминал этих купюр: {money[1]}");
             Console.WriteLine($"Сумма денег: {money.value}");
             Console.WriteLine(!money);
             money += 500;
+            Console.WriteLine("-----------------\nПроизошло увеличение на 500");
             Console.WriteLine($"Количество купюр: {money[2]}\nНоминал этих купюр: {money[1]}");
             Console.WriteLine($"Сумма денег: {money.value}");
         }
@@ -35,6 +38,7 @@
         public static void Main(string[] args)
         {
             FirstTask();
+            Console.WriteLine("---------------\nВторое задание\n-------------");
             SecondTask();
         }
     }
