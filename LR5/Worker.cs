@@ -35,7 +35,7 @@ namespace LR5
             }
             catch (Exception ex)
             {
-                throw ex;
+                Console.WriteLine(ex);
             }
             
 

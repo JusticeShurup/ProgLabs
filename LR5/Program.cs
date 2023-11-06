@@ -5,9 +5,9 @@
         public static void Main(string[] args)
         {
 
-            StreamReader stream = new StreamReader("input.txt");
-            List<Worker> workers = new List<Worker>();
-            StreamWriter streamWriter = new StreamWriter("output.txt");
+            StreamReader stream = new("input.txt");
+            List<Worker> workers = new();
+            StreamWriter streamWriter = new("output.txt");
             while (!stream.EndOfStream)
             {
                 workers.Add(new Worker());

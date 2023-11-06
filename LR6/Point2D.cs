@@ -14,8 +14,8 @@ namespace LR6
 
         public Point2D()
         {
-            x = 0;
-            y = 0;
+            x = 1;
+            y = 1;
         }
         public Point2D(float x, float y)
         {
