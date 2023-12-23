@@ -5,8 +5,19 @@
         public static void Main(string[] args) 
         {
 
-            Point2D point2D = new Point2D(5, 5);
-            point2D.Print();
+            Series series = new Series();
+
+            Console.WriteLine("Текущий список:");
+            series.PrintAllPairs();
+
+
+            series.pairs[0].Add(new Point2D(5, 7));
+            series.pairs[1].Substract(new Point2D(5, 7));
+            series.pairs[2].Add(new Point2D(1, 7));
+            series.pairs[2].Add(new Cell('B', 7));
+
+            Console.WriteLine("Изменнёный список:");
+            series.PrintAllPairs();
 
         }
     }

@@ -7,30 +7,41 @@ using System.Threading.Tasks;
 
 namespace LR6
 {
-    public class Point2D : APair
+    public class Point2D : Pair
     {
-        public float x;
-        public float y;
 
-        public Point2D()
-        {
-            x = 1;
-            y = 1;
-        }
+        public float X => Value1;
+        public float Y => Value2;
+
         public Point2D(float x, float y)
-        {
-            this.x = x;
-            this.y = y;
-        }
+            : base(x, y) {}
 
         public override void Print()
         {
-            Console.WriteLine($"({x}, {y})");
+            Console.WriteLine($"({X}, {Y})");
+        }
+
+        public override void Add(Pair other)
+        {
+            if (other is Point2D)
+            {
+                Value1 += (float)other.Value1;
+                Value2 += (float)other.Value2;
+            }
+        }
+
+        public override void Substract(Pair other)
+        {
+            if (other is Point2D)
+            {
+                Value1 -= (float)other.Value1;
+                Value2 -= (float)other.Value2;
+            }
         }
 
         public static Point2D operator+(Point2D left, Point2D right)
         {
-            return new Point2D(left.x + right.x, left.y + right.y);
+            return new Point2D(left.X + right.Y, left.X + right.Y);
         }
 
 
