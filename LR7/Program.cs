@@ -24,11 +24,13 @@ namespace LR7
 
         private delegate string StringDelegate(string[] strings);
 
-        private delegate Dictionary<int, int> NumberOfEnters(int[] massiv);
+        private delegate Dictionary<int, int> NumberOfEnters(int size);
 
         public static void Main()
         {
-            
+
+            Console.WriteLine("Первая задача: ");
+
             //Первая задача
             Func<bool, int> func = (flag) => flag ? 5 : 2;
             
@@ -36,6 +38,7 @@ namespace LR7
 
             action(func, 'a', "Args");
 
+            Console.WriteLine("\nВторая задача: ");
             // Вторая задача
 
             string[] strings = new string[4];
@@ -52,15 +55,22 @@ namespace LR7
             Console.WriteLine($"Самая длинная строка: {stringDelegate(strings)}");
             // Вторая задача
 
-            int[] massiv = { 1, 1, 2, 3, 3, 5 };
 
 
+
+            Console.WriteLine("\nТретья задача: ");
             // Третья задача
-            NumberOfEnters dictDelegate = (massiv) => 
+            int size = 30;
+            NumberOfEnters dictDelegate = (size) => 
             {
                 Dictionary<int, int> dict = new Dictionary<int, int>();
-                
-                
+
+                int[] massiv = new int[size];
+
+                for (int i = 0; i < size; i++)
+                {
+                    massiv[i] = new Random().Next(0, 10);
+                }
 
                 foreach (int i in massiv)
                 {
@@ -70,7 +80,9 @@ namespace LR7
                 return dict;
             };
 
-            Dictionary<int, int> dict = dictDelegate(massiv);
+            Console.WriteLine($"Количество вхождений массива из {size} чисел:"); ;
+
+            Dictionary<int, int> dict = dictDelegate(size);
             
             foreach (var pair in dict)
             {
@@ -78,6 +90,8 @@ namespace LR7
             }
             
             // Третья задача
+
+
 
 
         }

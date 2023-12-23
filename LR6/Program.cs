@@ -16,7 +16,7 @@
             series.pairs[2].Add(new Point2D(1, 7));
             series.pairs[2].Add(new Cell('B', 7));
 
-            Console.WriteLine("Изменнёный список:");
+            Console.WriteLine("Изменённый список:");
             series.PrintAllPairs();
 
         }
